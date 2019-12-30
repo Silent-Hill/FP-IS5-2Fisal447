@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2222"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00392E55"
+        android:hint="Name"
+        android:padding="15dp"
+        android:scrollbarThumbHorizontal="@android:color/background_light"
+        android:scrollbarThumbVertical="@android:color/background_light"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00392E55"
+        android:hint="Phone"
+        android:padding="15dp"
+        android:scrollbarThumbHorizontal="@android:color/background_light"
+        android:scrollbarThumbVertical="@android:color/background_light"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00392E55"
+        android:hint="Email"
+        android:padding="15dp"
+        android:scrollbarThumbHorizontal="@android:color/background_light"
+        android:scrollbarThumbVertical="@android:color/background_light"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#0005F525"
+        android:text="ADD SQL"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" /><!--25sp text size-->
+
+</LinearLayout>
